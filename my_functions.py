@@ -23,3 +23,23 @@ def get_date_str(date_object):
     date_object_str = str(year_int) + '-' + month_str + '-' + day_str
 
     return date_object_str
+
+
+def declutter_plot(plot_handle):
+    '''
+    Fuction to improve visualization for a plot. Removes top and right spines
+    and sets color to soft gray tones to let data take center stage.
+
+    Input: plot_handle - handle to a plot
+    Output: N/A
+    '''
+    plot_handle.spines['right'].set_visible(False)
+    plot_handle.spines['top'].set_visible(False)
+    plot_handle.spines['bottom'].set_color('gray')
+    plot_handle.spines['left'].set_color('gray')
+
+    plot_handle.xaxis.label.set_color('gray')
+    plot_handle.tick_params(axis='x', colors='gray')
+
+    plot_handle.yaxis.label.set_color('gray')
+    plot_handle.tick_params(axis='y', colors='gray')
