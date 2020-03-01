@@ -17,7 +17,6 @@ os
 sqlalchemy
 pandas
 numpy
-scipy
 matplotlib
 datetime
 dateutil (source: https://dateutil.readthedocs.io/en/stable/)
