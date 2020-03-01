@@ -22,6 +22,7 @@ datetime
 dateutil (source: https://dateutil.readthedocs.io/en/stable/)
 ```
 Some custom functions are built for recursive usage in the jupyter notebook and are included in ```my_functions.py```.
+The `SQLite` data is inlcuded in _Resources/hawaii.sqlite_.
 
 ## File Layout
 1. Preliminary analysis and data visualizations are performed in `hawaii_db_analysis.ipynb`.
