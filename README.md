@@ -25,7 +25,7 @@ dateutil (source: https://dateutil.readthedocs.io/en/stable/)
 Some custom functions are built for recursive usage in the jupyter notebook and are included in ```my_functions.py```.
 
 ## File Layout
-1. Preliminary analysis and data visualizations are performed in `hawaii_db_analysis.ipynb'.
+1. Preliminary analysis and data visualizations are performed in `hawaii_db_analysis.ipynb`.
 2. The `Flask` API is developed in `app.py`.
 3. Custom functions to improve visualizations and manipulate `datetime` objects are included in `my_functions.py`.
 4. The data visualizations are saved as `.png` format and are included in _Outputs/Images_.
