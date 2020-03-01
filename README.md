@@ -1,5 +1,5 @@
 # SQLAlchemy-challenge
-This is a mock project developed to perform sql queries with `SQLAlchemy` and develop a basic app using `Flask` using `Python`.
+This is a mock project developed to perform sql queries with `SQLAlchemy` and develop a basic `Flask` API using `Python`.
 <p align="center">
   <img src="Outputs/Images/precipitation.png">
 </p>
